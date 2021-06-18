@@ -1,4 +1,4 @@
-//A decade counter (0-9) with synchronous-actice-high reset 11:23 18-06-2021 FRI
+//A decade counter (0-9) with synchronous-active-high reset 11:23 18-06-2021 FRI
 
 `timescale 1ns / 1ps
 module top_module (
