@@ -18,7 +18,7 @@
     end
     always @(posedge clk, posedge areset) begin    // This is a sequential always block
         // State flip-flops with asynchronous reset
-        if(areset) state <= B;
+       if(!areset) state <= B;
         else       state <= next_state;
     end
 
